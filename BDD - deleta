@@ -1,0 +1,9 @@
+#encoding: UTF-8 #language: pt
+
+Funcionalidade: Paginá acessada para deletar uma conta permanentemente
+
+Contexto: O usuário tem de informar o email e a senha da conta que deseja deletar
+
+Cenário: Preenchimento do campos email e senha correspondentes então o usuário clica no botão de deletar e consegue excluir a conta sendo redirecionado para a pagina de deletado.php
+
+Cenário: Preenchimento do campos email e senha errados, ou não preenchimento dos dados, então o usuário clica no botão de deletar e não consegue excluir a conta aparecendo uma mensagem de erro dizendo para informar o email e a senha corretos
